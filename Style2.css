@@ -1,0 +1,47 @@
+#Inicio{
+	top: 200px;
+	position: absolute;
+	height: 550px;
+	width: 20%;
+	margin: auto 700px;
+	border-radius: 20px;
+	padding: 20px;
+	background: white;
+
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background-image: radial-gradient(circle at -16.45% 25.82%, #fff533 0, #e4f237 10%, #c7ed3d 20%, #a9e444 30%, #8ada4b 40%, #6acc50 50%, #48be55 60%, #19b25a 70%, #00a75f 80%, #009e64 90%, #00966b 100%);
+}
+.Inicio_de_sesion{
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+.Inicio{
+	position: relative;
+	top: 20px;
+	margin: auto 80px;
+}
+.enviar{
+	background-color: #4CAF50;
+	color: white;
+	position: absolute;
+	top: 370px;
+	border-radius: 20px;
+	padding: 15px;
+	font-size: 20px;
+	margin-left: -120px;
+	
+}
+
+.Login{
+	background-color: #4CAF50;
+	color: white;
+	margin-left: 30px;
+	border-radius: 10px;
+	position: absolute;
+	top: -100px;
+	padding: 10px;
+}
