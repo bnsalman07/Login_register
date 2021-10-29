@@ -2,6 +2,7 @@ const Nombre = document.querySelector('.nombre');
 const User = document.querySelector('.usuario');
 const login = document.querySelector('.enviar');
 const pswd = document.querySelector('.constraseña');
+const registrar = document.querySelector('.registro')
 
 login.addEventListener("click", (e) =>{
 	e.preventDefault();
@@ -11,4 +12,9 @@ login.addEventListener("click", (e) =>{
 	else{
 		window.alert("Clave o Usuario incorrecto");
 	}
+})
+
+registrar.addEventListener("click", (e) =>{
+	e.preventDefault();
+	window.open("/Registro.html")
 })
